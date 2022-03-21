@@ -15,103 +15,157 @@ html {
 *::after {
     box-sizing: inherit;
 }
-nav{
+
+nav {
     display: flex;
     width: 100%;
     margin: 2%;
     justify-content: space-between;
 }
-h1{
+
+h1 {
     margin-left: 10%;
 }
-.nav-list a{
+
+.nav-list a {
     text-decoration: none;
     color: black;
 }
-.nav-list a:hover{
+
+.nav-list a:hover {
     color: brown;
 
 }
-.nav-list{
-        margin-top: 1%;
-        position: sticky;
-        top: 0;
+
+.nav-list {
+    margin-top: 1%;
+    position: sticky;
+    top: 0;
 }
-li{
+
+li {
     list-style-type: none;
     display: inline;
     font-size: 1.3vw;
     padding: 15px;
 }
-.logIn{
+
+.logIn {
     display: flex;
 }
-.logIn-txt{
+
+.logIn-txt {
     position: relative;
     text-decoration: none;
     color: black;
     font-size: 1.3vw;
     padding-top: 2%;
 }
-.person{
+
+.person {
     width: 10%;
 }
- /* style hero */
 
- /* .mySlides {display: none;} */
-.hero img {vertical-align: middle;}
+/* style hero */
+
+.mySlides {
+    display: none;
+}
+
+.hero img {
+    vertical-align: middle;
+}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
 }
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+    color: black;
+    font-size: 4vw;
+    /* padding: 8px 12px; */
+    position: absolute;
+    bottom: 200px;
+    left: 00px;
+    width: 100%;
+    text-align: justify;
 }
+
+.text1 {
+    color: black;
+    font-size: 4vw;
+    position: absolute;
+    bottom: 102px;
+    left: 00px;
+    width: 100%;
+    text-align: justify;
+}
+
+.now {
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1.2%;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.social {
+    width: 2%;
+    margin-left: 0.5%;
+}
+
 /* The dots*/
 .dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
 .active {
-  background-color: #717171;
+    background-color: #717171;
 }
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 /* Media query*/
 @media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
+    .text {
+        font-size: 11px
+    }
 }
