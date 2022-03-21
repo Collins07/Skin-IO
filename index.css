@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Holtwood+One+SC&family=Pacifico&family=Playfair+Display&family=Quicksand:wght@300&family=Roboto:wght@100&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Playfair Display';
+}
+
+*,
+*:before,
+*::after {
+    box-sizing: inherit;
+}
+nav{
+    display: flex;
+    width: 100%;
+    margin: 2%;
+    justify-content: space-between;
+}
+h1{
+    margin-left: 10%;
+}
+.nav-list a{
+    text-decoration: none;
+    color: black;
+}
+.nav-list a:hover{
+    color: brown;
+
+}
+.nav-list{
+        margin-top: 1%;
+        position: sticky;
+        top: 0;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    font-size: 1.3vw;
+    padding: 15px;
+}
+.logIn{
+    display: flex;
+}
+.logIn-txt{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3vw;
+    padding-top: 2%;
+}
+.person{
+    width: 10%;
+}
