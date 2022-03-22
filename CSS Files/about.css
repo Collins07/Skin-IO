@@ -39,6 +39,10 @@ span{
   color: black;
   
 }
+.About{
+  font-family: 'Jost', sans-serif;
+  
+}
 
 .about-section p{
   justify-content: center;
