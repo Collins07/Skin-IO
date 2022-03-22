@@ -1,0 +1,75 @@
+#fluid1{
+    height: 230px;
+  }
+  #row1{
+    margin-top: 2%;
+    height: 100px;
+  }
+  #col1{
+    text-align: center;
+  }
+  #h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+  }
+  #col2{
+    display: flex;
+    margin-left: 20%;
+    margin-top: 3%;
+  }
+  hr{
+    width: 100%;
+    margin-left: 20%;
+    color: black;
+  }
+  span{
+    display: flex;
+    width: 70%;
+  }
+  #p1, #p2, #p3{
+    text-align: center;
+    margin-left: 10%;
+    font-size: 22px;
+  }
+  #fluid2{
+    height: 220px;
+  }
+  #row2{
+    height: 200px;
+    margin-left: 10%;
+    width: 85%;
+  }
+  #row3{
+    height: 300px;
+    margin-left: 10%;
+    width: 85%;
+    display: none;
+  }
+  #row4{
+    height: 300px;
+    margin-left: 10%;
+    width: 85%;
+    display: none;
+  }
+  #container1{
+    height: 625px;
+    border: 1px solid white;
+    background-image: url("./service.jpg");
+    background-size: contain;
+  }
+  #row5{
+    height: 280px;
+    width: 60%;
+    margin-top: 15%;
+    margin-left: 22%;
+    text-align: center;
+    background-color: white;
+  }
+  #p4{
+  font-weight: bolder;
+  margin-top: 5%;
+  }
+  #p6{
+  font-weight: bolder;
+  text-decoration: underline;
+  }
