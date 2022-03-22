@@ -169,3 +169,46 @@ li {
         font-size: 11px
     }
 }
+/* style overview  */
+.overview{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 5%;
+    padding-top: 2%;
+}
+.op{
+    width: 100%;
+}
+.ex{
+    width: 100%;
+}
+.re{
+    width: 65%;
+}
+.expert{
+    margin-left: 15%;
+    font-size: 1vw;
+    text-align: center;
+    margin-top: 5%;
+}
+.opinions{
+    margin-left: 10%;
+    font-size: 1vw;
+    text-align: center;
+    margin-top: 5%;
+}
+.recommendation{
+    margin-left: 5%;
+    margin-right: 10%;
+    font-size: 1vw;
+    text-align: center;
+    margin-top: 5%;
+}
+h5{
+    font-size: 1.5vw;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
