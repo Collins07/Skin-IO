@@ -73,3 +73,22 @@
   font-weight: bolder;
   text-decoration: underline;
   }
+  #row6{
+    height: 280px;
+    width: 60%;
+    margin-left: 25%;
+    margin-top: 15%;
+    background-color: white;
+    display: none;
+  }
+  #ul1{
+    margin-left: 5%;
+    list-style-type: none;
+  }
+  .question{
+    margin-left: 5%;
+  }
+  #submit{
+    margin-left: 45%;
+    background-color: palevioletred;
+  }
