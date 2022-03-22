@@ -54,7 +54,7 @@
   #container1{
     height: 625px;
     border: 1px solid white;
-    background-image: url("./service.jpg");
+    background-image: url("../assets/service.jpg");
     background-size: contain;
   }
   #row5{
