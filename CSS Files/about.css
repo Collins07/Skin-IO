@@ -56,3 +56,14 @@ body{
 .footer{
   margin-top: 80px;
 }
+
+.footer-link{
+  color: rgb(253, 247, 247);
+  font-family: 'Playfair Display', serif;
+}
+
+.footer-link:hover{
+  color: #8a6226;
+  
+}
+
