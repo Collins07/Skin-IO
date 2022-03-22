@@ -21,7 +21,8 @@ body{
 
 .nav-link{
   color: black;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Jost', sans-serif;
+  
 }
 
 .nav-link:hover{
@@ -59,7 +60,8 @@ body{
 
 .footer-link{
   color: rgb(253, 247, 247);
-  font-family: 'Playfair Display', serif;
+  font-family: 'Jost', sans-serif;
+  
 }
 
 .footer-link:hover{
@@ -67,3 +69,6 @@ body{
   
 }
 
+#user{
+  margin-left: 180px;
+}
