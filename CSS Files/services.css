@@ -129,4 +129,32 @@
   }
   .person {
     width: 10%;
-  }  
+  }
+  .footer{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    color: #FAF3E9;
+  }
+  .footer{
+    margin-top: 80px;
+    font-family: 'Jost', sans-serif;
+  }
+  .footer-link{
+    color: rgb(253, 247, 247);
+    font-family: 'Jost', sans-serif;
+  }
+  .footer-link:hover{
+    color: #8A6226;
+  }
+  #user{
+    margin-left: 180px;
+  }
+  .h3{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+  }
+  .logo{
+    font-family: 'Playfair Display', serif;
+  }
+    
