@@ -16,12 +16,13 @@ html {
     box-sizing: inherit;
 }
 body{
-    font-family: 'Playfair Display';
+  font-family: 'Playfair Display', serif;
 }
 nav {
     display: flex;
     width: 100%;
     margin: 2%;
+    font-family: 'Jost', sans-serif;
     justify-content: space-between;
 }
 
@@ -179,6 +180,7 @@ li {
     color: white;
     width: 100%;
     margin-top: 5%;
+    font-family: 'Jost', sans-serif;
     padding-top: 2%;
     padding-bottom: 10%;
 }
@@ -198,12 +200,14 @@ li {
 .expert{
     margin-left: 15%;
     font-size: 1vw;
+    font-family: 'Jost', sans-serif;
     text-align: center;
     margin-top: 5%;
 }
 .opinions{
     margin-left: 10%;
     font-size: 1vw;
+    font-family: 'Jost', sans-serif;
     text-align: center;
     margin-top: 5%;
 }
@@ -265,6 +269,7 @@ h2{
 }
 .more{
     display: block;
+    font-family: 'Jost', sans-serif;
     font-size: 1.5vw;
     margin-top: 8%;
     margin-left: -20%;
