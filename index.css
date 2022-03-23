@@ -7,7 +7,6 @@ html {
 * {
     margin: 0%;
     padding: 0%;
-    font-family: 'Playfair Display';
 }
 
 *,
@@ -15,7 +14,9 @@ html {
 *::after {
     box-sizing: inherit;
 }
-
+body{
+    font-family: 'Playfair Display';
+}
 nav {
     display: flex;
     width: 100%;
@@ -245,12 +246,15 @@ h5{
 h2{
     font-size: 4vw;
     font-family: 'Playfair Display';
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     margin-left:11% ;
 }
 .quiz img{
     width: 50%;
 
+}
+.quiz img:hover{
+    filter: brightness(40%);
 }
 .quiz{
     display: flex;
@@ -266,6 +270,7 @@ h2{
 }
 .quiz-link , .book{
     text-decoration: none;
+    font-size: 1.1vw;
     color: white;
     position: relative;
     margin-bottom: 5%;
