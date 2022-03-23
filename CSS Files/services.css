@@ -157,4 +157,10 @@
   .logo{
     font-family: 'Playfair Display', serif;
   }
+  #col3, #col4, #col5{
+      text-align: center;
+  }
+  #p1, #p2, #p3, #p6{
+      cursor: pointer;
+  }
     
