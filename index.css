@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Holtwood+One+SC&family=Pacifico&family=Playfair+Display&family=Quicksand:wght@300&family=Roboto:wght@100&display=swap');
 
 html {
@@ -285,3 +286,39 @@ h2{
     color: black;
     border: 2px solid black;
 }
+.card-footer{
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+#contact{
+  display: flex;
+}
+
+/* .colunm1{
+display: flex;
+height: 200px;
+width: 70%;
+margin-left: 10%;
+} */
+
+.card{
+  height: 350px;
+  width: 400px;
+  padding: 2px;
+  padding-right: 2px;
+  
+}
+.row{
+  display: flex;
+
+}
+
+#transform{
+  max-height: 333px;
+  max-width: 500px;
+}
+
+#first{
+  border: grey;
