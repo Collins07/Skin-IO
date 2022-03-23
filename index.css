@@ -1,0 +1,37 @@
+.card-footer{
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+#contact{
+  display: flex;
+}
+
+/* .colunm1{
+display: flex;
+height: 200px;
+width: 70%;
+margin-left: 10%;
+} */
+
+.card{
+  height: 350px;
+  width: 400px;
+  padding: 2px;
+  padding-right: 2px;
+  
+}
+.row{
+  display: flex;
+
+}
+
+#transform{
+  max-height: 333px;
+  max-width: 500px;
+}
+
+#first{
+  border: grey;
+}
