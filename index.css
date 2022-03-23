@@ -1,0 +1,329 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Holtwood+One+SC&family=Pacifico&family=Playfair+Display&family=Quicksand:wght@300&family=Roboto:wght@100&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+*,
+*:before,
+*::after {
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Playfair Display';
+}
+nav {
+    display: flex;
+    width: 100%;
+    margin: 2%;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-left: 10%;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list a:hover {
+    color: brown;
+
+}
+
+.nav-list {
+    margin-top: 1%;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    font-size: 1.3vw;
+    padding: 15px;
+}
+
+.logIn {
+    display: flex;
+}
+
+.logIn-txt {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3vw;
+    padding-top: 2%;
+}
+
+.person {
+    width: 10%;
+}
+
+/* style hero */
+
+.mySlides {
+    display: none;
+}
+
+.hero img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Caption text */
+.text {
+    color: black;
+    font-size: 4vw;
+    /* padding: 8px 12px; */
+    position: absolute;
+    bottom: 200px;
+    left: 00px;
+    width: 100%;
+    text-align: justify;
+}
+
+.text1 {
+    color: black;
+    font-size: 4vw;
+    position: absolute;
+    bottom: 102px;
+    left: 00px;
+    width: 100%;
+    text-align: justify;
+}
+
+.now {
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1.2%;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.social {
+    width: 2%;
+    margin-left: 0.5%;
+}
+
+/* The dots*/
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* Media query*/
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+/* style overview  */
+.overview{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 10%;
+}
+.overview img:hover{
+    filter: brightness(40%);
+}
+.op{
+    width: 150%;
+    margin-left:-28% ;
+}
+.ex{
+    width: 100%;
+}
+.re{
+    width: 65%;
+}
+.expert{
+    margin-left: 15%;
+    font-size: 1vw;
+    text-align: center;
+    margin-top: 5%;
+}
+.opinions{
+    margin-left: 10%;
+    font-size: 1vw;
+    text-align: center;
+    margin-top: 5%;
+}
+.recommendation{
+    margin-left: 5%;
+    margin-right: 10%;
+    font-size: 1vw;
+    text-align: center;
+    margin-top: 5%;
+}
+h5{
+    font-size: 1.5vw;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.link{
+    background-color: black;
+    width: 100%;
+    padding-bottom: 5%;
+}
+.Learn{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    margin-left: 45%; 
+}
+.Learn:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+/* style service */
+.popular{
+    margin-top: 5%;
+    padding-right: 5%;
+}
+h2{
+    font-size: 4vw;
+    font-family: 'Playfair Display';
+    margin-bottom: 2%;
+    margin-left:11% ;
+}
+.quiz img{
+    width: 50%;
+
+}
+.quiz img:hover{
+    filter: brightness(40%);
+}
+.quiz{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+
+}
+.more{
+    display: block;
+    font-size: 1.5vw;
+    margin-top: 8%;
+    margin-left: -20%;
+}
+.quiz-link , .book{
+    text-decoration: none;
+    font-size: 1.1vw;
+    color: white;
+    position: relative;
+    margin-bottom: 5%;
+    background-color: black;
+    padding: 4%;
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.quiz-link:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.book:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.card-footer{
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+#contact{
+  display: flex;
+}
+
+/* .colunm1{
+display: flex;
+height: 200px;
+width: 70%;
+margin-left: 10%;
+} */
+
+.card{
+  height: 350px;
+  width: 400px;
+  padding: 2px;
+  padding-right: 2px;
+  
+}
+.row{
+  display: flex;
+
+}
+
+#transform{
+  max-height: 333px;
+  max-width: 500px;
+}
+
+#first{
+  border: grey;
