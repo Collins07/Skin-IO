@@ -92,3 +92,41 @@
     margin-left: 45%;
     background-color: palevioletred;
   }
+  nav {
+    display: flex;
+    width: 100%;
+    margin: 2%;
+    font-family: 'Jost', sans-serif;
+    justify-content: space-between;
+  }
+  .nav-list a {
+    text-decoration: none;
+    color: black;
+  }
+  .nav-list a:hover {
+    color: brown;
+  }
+  .nav-list {
+    margin-top: 1%;
+    position: sticky;
+    top: 0;
+  }
+  li {
+    list-style-type: none;
+    display: inline;
+    font-size: 1.3vw;
+    padding: 15px;
+  }
+  .logIn {
+    display: flex;
+  }
+  .logIn-txt {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3vw;
+    padding-top: 2%;
+  }
+  .person {
+    width: 10%;
+  }  
