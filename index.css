@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Holtwood+One+SC&family=Pacifico&family=Playfair+Display&family=Quicksand:wght@300&family=Roboto:wght@100&display=swap');
 
 html {
@@ -15,9 +14,11 @@ html {
 *::after {
     box-sizing: inherit;
 }
-body{
-  font-family: 'Playfair Display', serif;
+
+body {
+    font-family: 'Playfair Display', serif;
 }
+
 nav {
     display: flex;
     width: 100%;
@@ -118,6 +119,10 @@ li {
     padding-left: 3%;
 }
 
+.now:hover {
+    background-color: brown
+}
+
 .social {
     width: 2%;
     margin-left: 0.5%;
@@ -172,8 +177,9 @@ li {
         font-size: 11px
     }
 }
+
 /* style overview  */
-.overview{
+.overview {
     display: flex;
     justify-content: space-between;
     background-color: black;
@@ -184,51 +190,61 @@ li {
     padding-top: 2%;
     padding-bottom: 10%;
 }
-.overview img:hover{
+
+.overview img:hover {
     filter: brightness(40%);
 }
-.op{
+
+.op {
     width: 150%;
-    margin-left:-28% ;
+    margin-left: -28%;
 }
-.ex{
+
+.ex {
     width: 100%;
 }
-.re{
+
+.re {
     width: 65%;
 }
-.expert{
+
+.expert {
     margin-left: 15%;
     font-size: 1vw;
     font-family: 'Jost', sans-serif;
     text-align: center;
     margin-top: 5%;
 }
-.opinions{
+
+.opinions {
     margin-left: 10%;
     font-size: 1vw;
     font-family: 'Jost', sans-serif;
     text-align: center;
     margin-top: 5%;
 }
-.recommendation{
+
+.recommendation {
     margin-left: 5%;
     margin-right: 10%;
     font-size: 1vw;
     text-align: center;
     margin-top: 5%;
 }
-h5{
+
+h5 {
     font-size: 1.5vw;
     margin-top: 2%;
     margin-bottom: 1%;
 }
-.link{
+
+.link {
     background-color: black;
     width: 100%;
     padding-bottom: 5%;
 }
-.Learn{
+
+.Learn {
     color: black;
     text-decoration: none;
     background-color: white;
@@ -236,45 +252,54 @@ h5{
     padding-left: 2%;
     padding-right: 2%;
     text-align: center;
-    margin-left: 45%; 
+    margin-left: 45%;
 }
-.Learn:hover{
+
+.Learn:hover {
     background-color: black;
     color: white;
     border: 1px solid white;
 }
+
 /* style service */
-.popular{
+.popular {
     margin-top: 5%;
     padding-right: 5%;
 }
-h2{
+
+h2 {
     font-size: 4vw;
     font-family: 'Playfair Display';
     margin-bottom: 2%;
-    margin-left:11% ;
+    margin-left: 11%;
 }
-.quiz img{
+
+.quiz img {
     width: 50%;
 
 }
-.quiz img:hover{
+
+.quiz img:hover {
     filter: brightness(40%);
 }
-.quiz{
+
+.quiz {
     display: flex;
     justify-content: space-around;
     padding-left: 0;
 
 }
-.more{
+
+.more {
     display: block;
     font-family: 'Jost', sans-serif;
     font-size: 1.5vw;
     margin-top: 8%;
     margin-left: -20%;
 }
-.quiz-link , .book{
+
+.quiz-link,
+.book {
     text-decoration: none;
     font-size: 1.1vw;
     color: white;
@@ -286,24 +311,174 @@ h2{
     padding-left: 5%;
     padding-right: 5%;
 }
-.quiz-link:hover{
+
+.quiz-link:hover {
     background-color: white;
     color: black;
     border: 2px solid black;
-}
-.book:hover{
-    background-color: white;
-    color: black;
-    border: 2px solid black;
-}
-.card-footer{
-  background-color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
 }
 
-#contact{
-  display: flex;
+.book:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+/* style .calendar */
+
+.appoint {
+    font-family: 'quicksand', sans-serif;
+    font-size: 60%;
+    display: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #12121f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calender {
+    width: 50%;
+    margin-left: 2%;
+    height: 80%;
+    background-color: #222227;
+    box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 4);
+}
+
+.month {
+    width: 100%;
+    height: 20%;
+    background-color: #167e56;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.2%;
+    text-align: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 5);
+}
+
+.month i {
+    font-size: 3vw;
+    cursor: pointer;
+}
+
+.month h3 {
+    font-size: 2vw;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1%;
+}
+
+.month p {
+    font-size: 1.2vw;
+}
+
+.weekdays {
+    width: 100%;
+    height: 6%;
+    padding: 0 0.4%;
+    display: flex;
+    align-items: center;
+}
+
+.weekdays div {
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    width: calc(44.2rem/7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem o.5rem rgba(0, 0, 0, 5);
+}
+
+.days {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2%;
+
+}
+
+.days div {
+    font-size: 1rem;
+    margin: 0.3rem;
+    width: calc(37.4rem/7);
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 5);
+    transition: background-color 0.2s;
+}
+
+.days div:hover:not(.today) {
+    background-color: #262626;
+    border: 0.2rem solid #777;
+    cursor: pointer;
+}
+
+.prev-date,
+.next-date {
+    opacity: 0.5;
+}
+
+.today {
+    background-color: #167e56;
+}
+
+.booked {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 2%;
+    text-decoration: none;
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin-left: 1%;
+}
+
+.booked:hover {
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+.dateSelected {
+    font-size: 1.2vw;
+    margin-left: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* style footer */
+.card-footer {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#contact {
+    display: flex;
 }
 
 /* .column1{
@@ -313,23 +488,24 @@ width: 70%;
 margin-left: 10%;
 } */
 
-.card{
-  height: 350px;
-  width: 400px;
-  padding: 2px;
-  padding-right: 2px;
-  
-}
-.row{
-  display: flex;
+.card {
+    height: 350px;
+    width: 400px;
+    padding: 2px;
+    padding-right: 2px;
 
 }
 
-#transform{
-  max-height: 333px;
-  max-width: 500px;
+.row {
+    display: flex;
+
 }
 
-#first{
-  border: grey;
+#transform {
+    max-height: 333px;
+    max-width: 500px;
+}
+
+#first {
+    border: grey;
 }
