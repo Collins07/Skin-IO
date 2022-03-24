@@ -19,8 +19,8 @@ $(document).ready(function() {
   $("#p2").css("border-bottom", "3px solid black")
   $("#p3").css("border-bottom", "none")
   $("#p1").css("border-bottom", "none")
-  $("#fluid2").css("height","300px")
-  $("#row3").css("height","300px")
+  $("#fluid2").css("height","410px")
+  $("#row3").css("height","410px")
   $("#row2").hide();
   $("#row3").show();
   $("#row4").hide();
