@@ -37,9 +37,15 @@ $(document).ready(function() {
     $("#row4").show();
   }) 
 
-    $("#p6").click(function(){
+  $("#p6").click(function(){
+    $("#row6").toggle();
+    $("#row5").toggle();
+
+  
+  });
+  $("#showskin").click(function(){
+      $("#row7").toggle();
       $("#row6").toggle();
-      $("#row5").toggle();
   
     
     });
@@ -103,6 +109,8 @@ const opt4 = document.querySelector("#option4");
 const submit = document.querySelector("#submit");
 const answers1 = document.querySelectorAll(".answer")
 const showsc = document.querySelector("#showscore");
+const showsk = document.querySelector("#showskin");
+
 const loadQuestions = () => {
     const listOfQuestions = quiz[count];
     quizquestion.innerHTML = listOfQuestions.question;
@@ -132,10 +140,12 @@ submit.addEventListener('click', () => {
     if (count < quiz.length) {
         loadQuestions();
     } else {
-        showsc.innerHTML = `
-        <h4> Your Skin is:  ${score}/ ${quiz.length}</h4>
-       <button class="Submit" onClick="location.reload()"> View Recommendation </button>
+        showsc.innerHTML = ` 
+       <button id="button1" class="Submit" onClick="location.reload()"> Thankyou! </button>
         `;
+        showsk.innerHTML = `
+        <button id="recommend">See recommendation</button>`;
+
         showsc.classList.remove("myscore")
     }
 });

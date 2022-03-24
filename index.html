@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skin-IO</title>
+    <link rel="stylesheet" href="./CSS Files/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200&family=Playfair+Display&display=swap"
@@ -116,7 +117,7 @@
         </div>
     </div>
     <div class="appoint">
-        <div class="container">
+        <div class="containers">
             <div class="calender">
                 <div class="month">
                     <i class="fas fa-angle-left prev"></i>
@@ -141,105 +142,95 @@
             <div class="dateSelected"></div> <br>
             <a class="booked" href="">DONE</a>
         </div>
-
     </div>
-
-
-
-
-
-
-
-
-
-
-
     <div class="card-body">
+        <div class="row" id="text">
+            <div class="card col-sm-3" id="card1">
+                <h6><strong>The Best in<br> Skincare</strong></h6>
+            </div>
+            <div class="card bg-dark col-sm-3 " id="card2">
+                <img class="quotes-img" src="./assets/quotes.png">
+            </div>
+            <div class="card col-sm-4" id="card3">
+                <div id="content-slider">
+                    <ul id="content-slider-inside">
+                        <li id="p1">We're thrilled when we hear how much our clientele love coming back whether
+                            it is
+                            online or in person time and time again. It means we're doing something right!
+                            To hear
+                            more
+                            about their experiences, see some of our reviews here.<br><br>
+                            <p><strong>Skin-IO</strong></p>
+                        </li> <br> <br> <br> <br>
+                        <li id="p2"> <br> I love how personalized they<br> made me feel. The quiz<br> especially helped me
+                            understand<br> my skin type better which<br> in turn led to me taking<br> better care of my
+                            skin. I
+                            <br>would highly recommend.<br><br><br><strong>~ Sheilah</strong>
+                        </li> <br> <br> <br>
+                        <li id="p3">I struggled with acne for <br>years, until I stumbled upon <br>this page.The process
+                            is seamless<br> and panel of experts make<br> it even better.Best decision<br> I
+                            ever made!<br><br><br> <strong>~ Mugure</strong>
+                        </li>
+                    </ul>
+                </div>
+                <div id="next">
+                    <ul id="navigation-next">
+                        <li><a href="#p1">◯</a></li>
+                        <li><a href="#p2">◯</a></li>
+                        <li><a href="#p3">◯</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <p class="tag">#Skin-<span style="color: brown;">IO</span></p>
+        <h2>Essential Looks & Products</h2>
         <div class="row">
-            <div class="card col-lg-4" id="first">
-                <p>The Best in Skincare</p>
-
+            <div class="card col-sm-4">
+                <img class="img-fluid" src="./assets/him.jpeg" id="img1">
             </div>
-
-            <div class="card col-lg-4 " id="second">
-                <p>End text marks</p>
+            <div class="card col-sm-4">
+                <img  class="img-fluid"src="./assets/her.jpeg" id="img2">
             </div>
-
-            <div class="card col-lg-4" id="third">
-                <p>We're thrilled when we hear<br> how much our clientele love<br>coming back whether it is<br>
-                    online
-                    or in person time and<br> time again. It means we're<br> doing something right! To<br> hear more
-                    about their<br> experiences, see some of<br> our best reviews here.</p>
-                <h2>Skin-IO</h2>
-                <p></p>
+            <div class="card col-sm-4">
+                <img class="img-fluid" src="./assets/oily.jpeg" id="img3">
             </div>
         </div>
-    </div>
-    <p>#Skin-IO</p>
-    <h1>Essential Looks & Products</h1>
-
-    <div class="row">
-
-        <div class="card col-lg-4">
-            <img src="assets/him.jpeg" id="him">
-
+        <div class="row">
+            <div class="card col-sm-4">
+                <img  class="img-fluid" src="./assets/transform.jpeg" id="img4">
+            </div>
+            <div class="card col-sm-4">
+                <img class="img-fluid" src="./assets/dark.jpeg" id="img5">
+            </div>
+            <div class="card col-sm-4">
+                <img  class="img-fluid"src="./assets/transform.jpeg" id="img6">
+            </div>
         </div>
-
-        <div class="card col-lg-4">
-            <img src="assets/her.jpeg">
-
-        </div>
-
-        <div class="card col-lg-4">
-            <img src="assets/oily.jpeg">
-        </div>
-    </div>
-
-    </div>
-
-    <div class="row">
-        <div class="card col-lg-4">
-            <img src="assets/transform.jpeg">
-        </div>
-
-        <div class="card col-lg-4">
-            <img src="assets/dark.jpeg">
-        </div>
-
-        <div class="card col-lg-4">
-            <img src="assets/transform2.jpeg" id="transform">
-        </div>
-    </div>
-
     </div>
 
     <div class="card-footer">
-        <div class="row">
-
-            <div class="card col-lg-4">
-                <h1>Skin-IO</h1><br><br><br><br><br><br>
+        <div class="row foot">
+            <div class="card col-md-4">
+                <h5>Skin-<span style="color: brown;">IO</span></h5><br><br><br> <br> <br>
                 <p>© 2023 by Skin-IO.com</p>
                 <p>All Rights Reserved</p>
             </div>
-
-            <div class="card col-lg-4">
+            <div class="card col-md-4">
                 <br><br><br>
                 <p>Phone:</p>
-                <p>+254123456789</p>
+                <p>+254123456789</p> <br>
                 <p>Email:</p>
                 <p>skinIO@gmail.com</p>
             </div>
-
-            <div class="card col-lg-4">
+            <div class="card col-md-4">
                 <br><br><br>
-                <p>Home</p>
-                <p>About</p>
-                <p>Services</p>
+                <p>Home</p> <br>
+                <p>About</p> <br>
+                <p>Services</p> <br>
                 <p>Contact</p>
-
             </div>
         </div>
-
     </div>
 </body>
 

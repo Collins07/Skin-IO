@@ -27,6 +27,7 @@ $(".book").click(function (e) {
   $('.overview').hide();
   $('.link').hide();
   $('.popular').hide();
+  $('.card-body').hide();
   $(".appoint").show();
 
 });
@@ -108,6 +109,7 @@ $(".booked").click(function (e) {
   $('.overview').show();
   $('.link').show();
   $('.popular').show();
+  $('.card-body').show();
   $(".appoint").hide();
 
 });

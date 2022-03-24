@@ -332,7 +332,7 @@ h2 {
     display: none;
 }
 
-.container {
+.containers {
     width: 100%;
     height: 100vh;
     background-color: #12121f;
@@ -457,55 +457,110 @@ h2 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* style footer */
+/* footer */
 .card-footer {
     background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'JOST';
     color: white;
+    padding: 50px;
+    /* border: none; */
+}
+
+.card-body {
+    font-family:'playfair display';
 }
 
 #contact {
     display: flex;
 }
 
-/* .column1{
-display: flex;
-height: 200px;
-width: 70%;
-margin-left: 10%;
-} */
-
 .card {
-    height: 350px;
-    width: 400px;
-    padding: 2px;
-    padding-right: 2px;
+    height: 400px;
+    padding: 1px;
 
 }
-
+h6{
+    font-size: 3vw;
+    text-align: justify;
+    padding-left: 5%;
+}
 .row {
     display: flex;
-
+    border: none;
+}
+#text {
+    background-color:rgba(255, 239, 219, 0.616);
+    padding: 50px;
+    display: flex;
 }
 
-#transform {
-    max-height: 333px;
-    max-width: 500px;
+#content-slider {
+    overflow: hidden;
+    height: 300px;
+    padding-left: 10px;
 }
 
-#first {
-    border: grey;
+#content-slider-inside {
+    list-style: none;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+#content-slider-inside li {
+    width: 500px;
+    height: 300px;
+}
+
+#navigation-next li {
+    display: inline;
+}
+
+#navigation-next li a,
+#navigation-next li a:link,
+#navigation-next li a:visited {
+    text-decoration: dotted;
+    display: inline;
+    height: 30px;
+    color: black;
+}
+.review{
+    background-color: brown;
+}
+#card1 {
+    margin: 20px;
+    padding-top: 80px;
+    text-align: center;
+    margin-left: 4%;
+    box-shadow: inset;
+    background-color: white;
+}
+
+#card2 {
+    padding-top: 50px;
+    margin: 20px;
+    background-color: black;
+    text-align: center;
+}
+.quotes-img{
+    padding-top:10%;
+    width: 90%;
+}
+
+#card3 {
+    font-size: 1vw;
+    padding-top: 6%;
+    padding-left: 2%;
+    margin: 20px;
+    padding-bottom: 5%;
+    background-color: white;
+}
+.tag{
+    margin: 2%;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.foot{
+    padding-left: 5%;
+    height: 20%;
 }
