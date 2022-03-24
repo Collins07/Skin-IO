@@ -1,192 +1,243 @@
-#fluid1{
-    height: 230px;
-  }
-  #row1{
-    margin-top: 2%;
-    height: 100px;
-  }
-  #col1{
-    text-align: center;
-  }
-  #h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-  }
-  #col2{
-    display: flex;
-    margin-left: 20%;
-    margin-top: 3%;
-  }
-  hr{
-    width: 100%;
-    color: black;
-  }
-  #span1{
-    display: flex;
-    width: 70%;
-  }
-   #p2, #p3{
-    text-align: center;
-    margin-left: 10%;
-    font-size: 22px;
-  }
-  #p1{
-    text-align: center;
-    margin-left: 10%;
-    font-size: 22px;
-    border-bottom: 3px solid black;
-  }
-  #fluid2{
-    height: 220px;
-  }
-  #row2{
-    height: 200px;
-    margin-left: 10%;
-    width: 85%;
-  }
-  #row3{
-    height: 300px;
-    margin-left: 10%;
-    width: 85%;
-    display: none;
-  }
-  #row4{
-    height: 300px;
-    margin-left: 10%;
-    width: 85%;
-    display: none;
-  }
-  #container1{
-    height: 625px;
-    border: 1px solid white;
-    background-image: url("../assets/service.jpg");
-    background-size: contain;
-  }
-  #row5{
-    height: 280px;
-    width: 60%;
-    margin-top: 15%;
-    margin-left: 22%;
-    text-align: center;
-    background-color: white;
-  }
-  #p4{
+body {
+  font-family: 'Jost';
+}
+
+#fluid1 {
+  height: 230px;
+}
+
+#row1 {
+  margin-top: 2%;
+  height: 100px;
+}
+
+#col1 {
+  text-align: center;
+}
+
+#h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+
+#col2 {
+  display: flex;
+  margin-left: 20%;
+  margin-top: 3%;
+}
+
+hr {
+  width: 100%;
+  color: black;
+}
+
+#span1 {
+  display: flex;
+  width: 70%;
+}
+
+#p2,
+#p3 {
+  text-align: center;
+  margin-left: 10%;
+  font-size: 22px;
+}
+
+#p1 {
+  text-align: center;
+  margin-left: 10%;
+  font-size: 22px;
+  border-bottom: 3px solid black;
+}
+
+#fluid2 {
+  height: 220px;
+}
+
+#row2 {
+  height: 200px;
+  margin-left: 10%;
+  width: 85%;
+}
+
+#row3 {
+  height: 300px;
+  margin-left: 10%;
+  width: 85%;
+  display: none;
+}
+
+#row4 {
+  height: 300px;
+  margin-left: 10%;
+  width: 85%;
+  display: none;
+}
+
+#container1 {
+  height: 625px;
+  border: 1px solid white;
+  background-image: url("../assets/service.jpg");
+  background-size: contain;
+}
+
+#row5 {
+  height: 280px;
+  width: 60%;
+  margin-top: 15%;
+  margin-left: 22%;
+  text-align: center;
+  background-color: white;
+}
+
+#p4 {
   font-weight: bolder;
   margin-top: 5%;
-  }
-  #p6{
+}
+
+#p6 {
   font-weight: bolder;
   text-decoration: underline;
-  }
-  #row6{
-    height: 280px;
-    width: 60%;
-    margin-left: 25%;
-    margin-top: 15%;
-    background-color: white;
-    display: none;
-  }
-  #ul1{
-    margin-left: 5%;
-    list-style-type: none;
-  }
-  .question{
-    margin-left: 5%;
-  }
-  #submit{
-    margin-left: 45%;
-    background-color: palevioletred;
-  }
-  nav {
-    display: flex;
-    width: 100%;
-    margin: 2%;
-    font-family: 'Jost', sans-serif;
-    justify-content: space-between;
-  }
-  .nav-list a {
-    text-decoration: none;
-    color: black;
-  }
-  .nav-list a:hover {
-    color: brown;
-  }
-  .nav-list {
-    margin-top: 1%;
-    position: sticky;
-    top: 0;
-  }
- #li1{
-    list-style-type: none;
-    display: inline;
-    font-size: 1.3vw;
-    padding: 15px;
-  }
-  .logIn {
-    display: flex;
-  }
-  .logIn-txt {
-    position: relative;
-    text-decoration: none;
-    color: black;
-    font-size: 1.3vw;
-    padding-top: 2%;
-  }
-  .person {
-    width: 10%;
-  }
-  .footer{
-    width: 100%;
-    height: 500px;
-    background-color: black;
-    color: #FAF3E9;
-  }
-  .footer{
-    margin-top: 80px;
-    font-family: 'Jost', sans-serif;
-  }
-  .footer-link{
-    color: rgb(253, 247, 247);
-    font-family: 'Jost', sans-serif;
-  }
-  .footer-link:hover{
-    color: #8A6226;
-  }
-  #user{
-    margin-left: 180px;
-  }
-  .h3{
-    font-family: 'Jost', sans-serif;
-    font-size: 20px;
-  }
-  .logo{
-    font-family: 'Playfair Display', serif;
-  }
-  #col3, #col4, #col5{
-      text-align: center;
-  }
-  #p1, #p2, #p3, #p6{
-      cursor: pointer;
-  }
-  #row7{
-    display: none;
-  }
-  #product1{
-    width: 90%;
-  }
-  #product3{
-    width: 95%;
-  }
-  #button1{
-    background-color: palevioletred;
-    margin-top: 1%;
-    margin-left: 5%;
-  }
-  #recommend{
-    background-color: blue;
-    margin-left: 5%;
-    color: white;
-    border: none;
-    border-radius: 2%;
-  }  
-    
+}
+
+#row6 {
+  height: 280px;
+  width: 60%;
+  margin-left: 25%;
+  margin-top: 15%;
+  background-color: white;
+  display: none;
+}
+
+#ul1 {
+  margin-left: 5%;
+  list-style-type: none;
+}
+
+.question {
+  margin-left: 5%;
+}
+
+#submit {
+  margin-left: 45%;
+  background-color: palevioletred;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  margin: 2%;
+  font-family: 'Jost', sans-serif;
+  justify-content: space-between;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-list a:hover {
+  color: brown;
+}
+
+.nav-list {
+  margin-top: 1%;
+  position: sticky;
+  top: 0;
+}
+
+#li1 {
+  list-style-type: none;
+  display: inline;
+  font-size: 1.3vw;
+  padding: 15px;
+}
+
+.logIn {
+  display: flex;
+}
+
+.logIn-txt {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-size: 1.3vw;
+  padding-top: 2%;
+}
+
+.person {
+  width: 10%;
+}
+
+.footer {
+  width: 100%;
+  height: 500px;
+  background-color: black;
+  color: #FAF3E9;
+}
+
+.footer {
+  margin-top: 80px;
+  font-family: 'Jost', sans-serif;
+}
+
+.footer-link {
+  color: rgb(253, 247, 247);
+  font-family: 'Jost', sans-serif;
+}
+
+.footer-link:hover {
+  color: #8A6226;
+}
+
+#user {
+  margin-left: 180px;
+}
+
+.h3 {
+  font-family: 'Jost', sans-serif;
+  font-size: 20px;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+}
+
+#col3,
+#col4,
+#col5 {
+  text-align: center;
+}
+
+#p1,
+#p2,
+#p3,
+#p6 {
+  cursor: pointer;
+}
+
+#row7 {
+  display: none;
+}
+
+#product1 {
+  width: 90%;
+}
+
+#product3 {
+  width: 95%;
+}
+
+#button1 {
+  background-color: palevioletred;
+  margin-top: 1%;
+  margin-left: 5%;
+}
+
+#recommend {
+  background-color: blue;
+  margin-left: 5%;
+  color: white;
+  border: none;
+  border-radius: 2%;
+}
