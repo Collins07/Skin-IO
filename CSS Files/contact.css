@@ -70,11 +70,24 @@ li {
   /*contact-information*/
   #black{
     background-color: black;
+    font-family: 'Jost', sans-serif;
+    color: white;
+    text-align: center;
   }
   #kiki{
-    background-color: darkkhaki;
+    background-color: rgb(235, 230, 168);
   }
-  
+  #phone{
+    text-align: center;
+    height: 100px;
+  }
+  .opening{
+    text-align: center;
+  }
+  .days{
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+  }
   /*form*/
 .Container{
     width: 100%;
@@ -100,7 +113,9 @@ li {
 #button{
     text-align: center;    
     margin-left: 500px;
+    color: blue;
 }
+
 /*map section*/
 .map-responsive{
 
@@ -108,7 +123,7 @@ li {
 
     padding-bottom:56.25%;
 
-    position:relative;
+    position:center;
 
     height:0;
 
