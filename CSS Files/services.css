@@ -25,10 +25,16 @@
     display: flex;
     width: 70%;
   }
-  #p1, #p2, #p3{
+   #p2, #p3{
     text-align: center;
     margin-left: 10%;
     font-size: 22px;
+  }
+  #p1{
+    text-align: center;
+    margin-left: 10%;
+    font-size: 22px;
+    border-bottom: 3px solid black;
   }
   #fluid2{
     height: 220px;
@@ -162,4 +168,25 @@
   #p1, #p2, #p3, #p6{
       cursor: pointer;
   }
+  #row7{
+    display: none;
+  }
+  #product1{
+    width: 90%;
+  }
+  #product3{
+    width: 95%;
+  }
+  #button1{
+    background-color: palevioletred;
+    margin-top: 1%;
+    margin-left: 5%;
+  }
+  #recommend{
+    background-color: blue;
+    margin-left: 5%;
+    color: white;
+    border: none;
+    border-radius: 2%;
+  }  
     
