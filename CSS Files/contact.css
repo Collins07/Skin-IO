@@ -68,9 +68,13 @@ li {
     font-family: 'Jost', sans-serif;
   }
   /*contact-information*/
-  #phoneemail{
-      background-color: khaki;
+  #black{
+    background-color: black;
   }
+  #kiki{
+    background-color: darkkhaki;
+  }
+  
   /*form*/
 .Container{
     width: 100%;
@@ -98,6 +102,31 @@ li {
     margin-left: 500px;
 }
 /*map section*/
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:center;
+
+}
 
 /*footer section*/
 .footer{
