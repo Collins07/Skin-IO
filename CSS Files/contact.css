@@ -8,8 +8,9 @@
   
     font-weight: bolder;
     color: #030303;
-    font-size: 1.3em;
+    font-size: 1.9em;
     margin-left: 5%;
+    font-family: 'Jost', sans-serif;
   }
   
   .nav{
@@ -39,6 +40,7 @@ li {
 
 .logIn {
     display: flex;
+    margin-left: 100px;
 }
 
 .logIn-txt {
@@ -51,6 +53,10 @@ li {
 
 .person {
     width: 10%;
+}
+.contact-us-section{
+  margin-top: 200px;
+  font-family: 'Jost', sans-serif;
 }
   
   .contact-us-section h1{
